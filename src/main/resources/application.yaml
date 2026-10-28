@@ -1,3 +1,10 @@
 spring:
   application:
     name: mcpify
+  ai:
+    mcp:
+      server:
+        name: mcpify
+        version: 0.0.1
+        type: SYNC
+        protocol: STREAMABLE
